@@ -1,0 +1,6 @@
+torch>=2.0
+transformers>=4.48,<5
+spacy>=3.8,<3.9
+# spaCy 3.8'in CLI'ı click'ı doğrudan import ediyor; yeni typer sürümleri
+# bağımlılık olarak getirmediği için burada açıkça belirtiyoruz.
+click>=8.0

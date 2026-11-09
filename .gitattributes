@@ -1,0 +1,2 @@
+# Duygu modeli ağırlıkları GitHub'ın 100 MB dosya limitini aştığı için Git LFS ile tutulur.
+models/sentiment/*.safetensors filter=lfs diff=lfs merge=lfs -text
